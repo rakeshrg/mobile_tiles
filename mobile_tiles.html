@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobile Tiles</title>
+	<link rel="stylesheet" type="text/css" href="css/vendors/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/custom/visual.css">
+	<script src="js/vendors/jquery-1.11.3.min.js"></script>
+	<script src="js/vendors/jquery-1.11.4.min.js"></script>
+</head>
+<body>	
+	<div class="front">
+		<div class="header">
+			<img id="logo" src="images/logo/logo.gif" />	
+			<img class="img-responsive" id="gear" src="images/icons/gear.png" onmouseover = "this.src='images/icons/gear_h.png'"
+			onmouseout= "this.src='images/icons/gear.png'" />
+		</div>
+		<div id="tiles">
+			
+		</div>
+		<footer><img src="images/ads/ads.jpg" /></footer>	
+	</div>
+	<div class="back">
+		<header>
+			<h1>Personalize</h1>
+			<input type="button" id="done" value="Done"></input>
+		</header>
+			<p align="center">Tap the check marks to Add/Remove categories from your Home Screen. Tap and hold the
+			<img src="images/icons/stack.png" style="vertical-align: middle;"> to reorder category tiles</p>
+			<hr>
+			<p align="center">Want More Local News? Tap Here</p>
+			<hr>
+		
+		<ul id="tilesList">
+			
+		</ul>
+
+		<div class="footer" align="center">
+			<input type="button" value="Categories">
+			<input type="button" value="Report News To AP">
+			<input type="button" value="Settings">
+		</div>
+
+	</div>
+		<script type="text/javascript" src="js/custom/call.js"></script>
+		<script type="text/javascript" src="js/custom/backpage.js"></script>
+</body>
+</html>
